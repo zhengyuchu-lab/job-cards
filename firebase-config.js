@@ -4,7 +4,7 @@
  * These values are public by design: what protects the data is the security rules, not this file.
  * Leave it as null to run the site with sample trips only.
  */
-const firebaseConfig = {
+window.FIREBASE_CONFIG = {
   apiKey: "AIzaSyDPFr4zhZB0yjxAF41s6Bv98ZiK3RgqhX0",
   authDomain: "lylo-job-cards-fd2ae.firebaseapp.com",
   projectId: "lylo-job-cards-fd2ae",
